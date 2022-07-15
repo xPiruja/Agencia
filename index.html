@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icono-tp.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Anek%20Latin:wght@500;600">
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Lato">
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Roboto">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="contenedor dflex">
+            <h1 class="logo">Estudio GADNIC</h1>
+            <nav class="botons">
+                <ul class="dflex">
+                    <li>
+                        <a class="botones-nav" href="#Empresa">Empresa</a>
+                    </li>
+                    <li>
+                        <a class="botones-nav" href="#Managger">Managger</a>
+                    </li>
+                    <li>
+                        <a class="botones-nav" href="#Servicios">Servicios</a>
+                    </li>
+                    <li><a class="botones-nav" href="#Portfolio">Portfolio</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <div class="portada">
+        <img src="img/portada.jpg" alt="portada" width="1920" height="1000">
+    </div>
+    <section id="Empresa">
+        <div class="contenedor">
+            <h2>Estudio GADNIC</h2>
+            <h3>Sobre la empresa</h3>
+            <p>Somos una empresa totalmente comprometida con el área del diseño grafico tanto como para clientes grandes
+                y chicos. Nos comprometemos a buscar siempre lo que busca el cliente y hacer que el cliente quede
+                conforme con nuestros trabajos.
+            </p>
+        </div>
+    </section>
+
+    <section id="Managger">
+        <div class="contenedormanagger">
+            <h2>Sobre el Managger</h2>
+            <h3>¿como es...?</h3>
+            <article class="Managger">
+                
+                <figure data-aos="fade-right">
+                    <img src="img/foto-cv.jpg" alt="Managger" width="400" height="400">
+                </figure>
+                <div data-aos="fade-left" class="datos-personales">
+                    <p class="Managger1"> Buenas mi nombre es Matias, soy una persona muy responsable, cumplo siempre
+                        con mis tareas
+                        correspondientes, soy muy dedicado al trabajo, siempre escucho atentamente a las demandas de mis
+                        clientes y también aprendo
+                        rápido. Me siento una persona capacitada para a la hora del trabajo, también soy creativo y en
+                        mis
+                        tiempos libres miro y practico técnicas nuevas en base al diseño ya sea en Photoshop o
+                        Illustrator.
+                    </p>
+                </div>
+            
+            </article>
+
+
+            <p>Podes seguirlo en:</p>
+            <ul>
+                <li>
+                    <a href="https://instagram.com/matyolivaa?igshid=YmMyMTA2M2Y">
+                        <img src="img/instagram.png" alt="instagram" width="24">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/matias.oliva.965">
+                        <img src="img/facebook.png" alt="facebook" width="24">
+                    </a>
+                </li>
+            </ul>
+
+            <a href="#">volver</a>
+        </div>
+    </section>
+
+    <section id="Servicios">
+        <div class="contenedor">
+            <h2>Servicios</h2>
+            <h3>Programas que maneja la empresa</h3>
+            <div class="contrenedor dflex2">
+                <div>
+                    <img src="img/ilustrador.png" alt="Illustrator" width="256" class="zoom">
+                    <h3>Illustrator</h3>
+                </div>
+                <div>
+                    <img src="img/photoshop.png" alt="Photoshop" width="256" class="zoom">
+                    <h3>Photoshop</h3>
+                </div>
+                <div>
+                    <img src="img/after-effects.png" alt="after-effects" width="256" class="zoom">
+                    <h3>After Effects</h3>
+                </div>
+                <div>
+                    <img src="img/visual-studio.png" alt="visual-studio" width="256" class="zoom">
+                    <h3>Visual Studio</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="Portfolio">
+        <div class="contenedor">
+            <h2>Portfolio laboral</h2>
+            <h3>algunos trabajos realizados a clientes</h3>
+            <div class="galeria">
+                <div class="columnas">
+                    <img src="img/trabajo-1.jpg" alt="1" width="300" height="400">
+                    <img src="img/trabajo-2.jpg" alt="2" width="300" height="400">
+                    <img src="img/trabajo-3.jpg" alt="3" width="300" height="400">
+                    <img src="img/trabajo-4.jpg" alt="4" width="300" height="400">
+                    <img src="img/trabajo-5.jpg" alt="5" width="300" height="400">
+                    <img src="img/trabajo-6.jpg" alt="6" width="300" height="400">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="contenedor">
+            <h2>¡Contactanos!</h2>
+            <h3>Completa con tu información personal</h3>
+            <form action="enviar-form.php" method="post">
+
+                <div class="form-entrada">
+                    <div class="campos">
+                        <label for="full-name">Nombre completo*:</label>
+                        <input type="text" id="full-name" placeholder="Complete aquí" required>
+                    </div>
+                    <div class="campos">
+                        <label for="e-mail">E-mail*:</label>
+                        <input type="email" id="e-mail" placeholder="Complete aquí" required>
+                    </div>
+
+
+                    <div class="campo">
+                        <label for="selec-servicio">Selecciona el servicio</label>
+                        <select id="selec-servicio">
+                            <!-- multiple para varios ìtems a seleccionar -->
+                            <option value="sin-selecion">--</option>
+                            <option value="Illustrator">Illustrator</option>
+                            <option value="Photoshop">Photoshop</option>
+                            <option value="After Effects">After Effects</option>
+                            <option value="Visual Studio">Visual Studio</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label for="tu-mensaje">Deja tu mensaje aquí</label>
+                    <textarea id="tu-mensaje" cols="30" rows="10" placeholder="... (hasta 300 caracteres)"
+                        maxlength="300">
+                    </textarea>
+                </div>
+                <button class="botonform" type="submit">Enviar</button>
+            </form>
+            <a class="volver" href="#">Volver</a>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="contenedor">
+            <p>&copy; copyright - 2022 - Estudio GADNIC</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #d4a373;
+}
+
+.contenedor {
+    width: 1140px;
+    margin: 0 auto;
+    border: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    /*sacar el punto si queres*/
+    list-style-type: none;
+}
+
+figure,
+ul {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    
+}
+
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: font-family 'Lato', sans-serif;
+}
+
+.dflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 280px;
+}
+
+.botons {
+    width: 800px;
+}
+
+.botones-nav {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    padding-top: 8.8rem;
+    padding-bottom: 0.5rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0d1641;
+}
+
+.botones-nav:hover {
+    background-color: #5f3dbb;
+    color: #b6b7dd;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#Empresa {
+    background-color: #e1ecee;
+}
+
+#Empresa h2 {
+    color: #457b9d;
+}
+
+.datos-personales {
+    padding: 20px;
+    border-radius: 5px;
+    width: 650px;
+    height: fit-content;
+}
+
+.contenedormanagger h2 {
+    margin-bottom: 1%;
+}
+
+
+
+#Managger{
+    background-color: #d2e1e6;
+}
+.Managger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0%;
+
+}
+
+.Managger1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 19% 1px;
+}
+
+#Managger h2 {
+    color:#457b9d;
+}
+
+.contenedormanagger {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 1% 15px;
+
+}
+
+#Servicios {
+    background-color: #91d8f0;
+}
+
+#Servicios h2 {
+    color: #457b9d;
+}
+
+.Servicios,
+img:hover {
+    transform: scale(1.05);
+}
+
+.dflex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#Conocimientos {
+    background-color: #edf6f9;
+}
+
+#Conocimientos h2 {
+    color: #f4a261;
+}
+
+#Portfolio {
+    background-image: url(img/fondoC.jpg);
+    background-repeat: repeat;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    margin: 0 auto;
+    
+}
+
+#Portfolio h2 {
+    color: #457b9d;
+}
+
+/* buscar paleta en happyhues*/
+
+input,
+select {
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ff6e6c;
+    color: #594a4e;
+}
+
+.campo textarea {
+    width: 100%;
+    height: 150px;
+    background: none;
+    color: #594a4e;
+    padding: 10px 20px;
+    border: 1px solid #ff6e6c;
+}
+
+label {
+    display: block;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.botonform {
+    display: block;
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #8bb9ff;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px
+}
+
+.botonform,
+p {
+    color: #33272a;
+}
+
+
+.botonform:hover {
+    background-color: #ddcddf;
+    box-shadow: none;
+}
+
+/*fila o row y todos sus hijos*/
+.form-entrada {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    background: none;
+    border: none;
+}
+
+
+header {
+    background-color: #c5c5c5;
+    /*position: fixed;*/
+    width: 100%;
+
+}
+
+.portada {
+    background: #e1ecee;
+}
+
+header,
+section,
+footer {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+section h2 {
+    margin-bottom: 2px;
+}
+
+section h3 {
+    margin-top: 1px;
+}
+
+footer {
+    background-color: #8c96f0;
+}
